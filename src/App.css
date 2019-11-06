@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.metronome {
+    text-align: center;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #413d3d;
+  }
+  
+  .bpm-slider input {
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .metronome button {
+    background: #d4d0cf;
+    padding: 10px;
+    border: 1px solid #58504f;
+    border-radius: 2px;
+    width: 100px;
+    color: rgb(49, 47, 47);
+    font-size: 18px;
+  }
+
+  .bpm{
+      color:#d4d0cf;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 20px;
+  }
+  .Form{
+      width: 400px;
+      margin: 30px auto;
+      height: 10rem;
+      padding: 20px 0;
+      background: #09d3ac;
+  }
